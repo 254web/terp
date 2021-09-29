@@ -75,9 +75,9 @@ public class CmsApplication extends SpringBootServletInitializer {
         SpringApplication.run(CmsApplication.class, args);
     }
 
-    @Override
+   /* @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(CmsApplication.class);
     }
-
+*/
 }
