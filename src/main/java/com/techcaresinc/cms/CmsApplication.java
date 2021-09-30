@@ -13,7 +13,7 @@ public class CmsApplication extends SpringBootServletInitializer {
 
     @RequestMapping(value = "/")
     public String root (){
-        return "index";
+        return "indexlogin";
     }
 
     @RequestMapping(value = "/form_component")
