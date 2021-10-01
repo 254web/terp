@@ -85,13 +85,19 @@
                     <label class="sr-only" for="exampleInputPassword2">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
                   </div>
-                  <div class="or-seperator"><i>or</i></div>
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Remember me
-                    </label>
+                  <div class="form-group">
+                    <div class="col-lg-6">
+                      <a th:href="@{/}">Create Account?</a>
+                    </div>
+                    <div class="col-lg-6">
+                      <button class="btn btn-primary" type="submit">Sign in</button>
+                    </div>
                   </div>
-                  <button type="submit" class="btn btn-primary">Sign in</button>
+                  <div class="or-seperator"><i>or</i></div>
+                  <div class="row">
+                    <label class="row text-center">Easy Sign Up Here</label>
+                    <div class="fa fa-google text-center"></div>
+                  </div>
                 </form>
 
               </div>
