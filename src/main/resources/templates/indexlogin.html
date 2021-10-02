@@ -54,6 +54,13 @@
       top: -11px;
       z-index: 1;
     }
+
+    .input-icon {
+      float: left;
+      margin-right: 6px;
+      margin-top: -20px;
+      position: relative;
+    }
   </style>
 </head>
 
@@ -78,12 +85,9 @@
               <div class="panel-body">
                 <form class="" role="form">
                   <div class="form-group row">
-                    <div class="col-lg-2 control-label">
-                      <label class="fa fa-user pull-right" for="userName"></label>
-                    </div>
-                    <div class="col-lg-10">
-                      <input class="form-control" id="userName" placeholder="Username" type="text">
-                    </div>
+                    <input class="form-control" id="userName" placeholder="Username" type="text">
+                    <label class="col-lg-2 control-label fa fa-user input-icon" for="userName"></label>
+
                     <!--                    &lt;!&ndash;   <label class="sr-only fa fa-user" for="exampleInputPassword2">Username</label>&ndash;&gt;
                                         <input class="form-control" id="exampleInputPassword2" placeholder="Username"
                                                type="text">-->
