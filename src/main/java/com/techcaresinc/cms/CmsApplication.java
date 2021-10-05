@@ -50,11 +50,6 @@ public class CmsApplication extends SpringBootServletInitializer {
         return "profile";
     }
 
-    @RequestMapping(value = "/login")
-    public String login(){
-        return "login";
-    }
-
     @RequestMapping(value = "/widgets")
     public String widgets(){
         return "widgets";
