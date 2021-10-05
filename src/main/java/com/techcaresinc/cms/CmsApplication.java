@@ -2,7 +2,6 @@ package com.techcaresinc.cms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,17 +11,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CmsApplication extends SpringBootServletInitializer {
 
     @RequestMapping(value = "/")
-    public String root (){
+    public String root() {
         return "indexlogin";
     }
 
+    @RequestMapping(value = "/admin")
+    public String adminPanel() {
+        return "index";
+    }
+
     @RequestMapping(value = "/form_component")
-    public String form_component(){
+    public String form_component() {
         return "form_component";
     }
 
     @RequestMapping(value = "/form_validation")
-    public String form_validation(){
+    public String form_validation() {
         return "form_validation";
     }
 
