@@ -54,157 +54,167 @@
       top: -11px;
       z-index: 1;
     }
+
+    .input-icon {
+      float: left;
+      margin-top: -25px;
+      position: relative;
+    }
   </style>
 </head>
 
 <body>
-  <!-- container section start -->
-  <section id="container" class="">
+<!-- container section start -->
+<section class="" id="container">
 
-    <th:block th:insert="fragments/header::header"/>
-    <!--header end-->
+  <th:block th:insert="fragments/header::header"/>
+  <!--header end-->
 
-    <!--main content start-->
-    <section id="">
-      <section class="wrapper">
-        <!-- Inline form-->
-        <div class="row">
-          <div class="col-lg-4"></div>
-          <div class="col-lg-4">
-            <section class="panel">
-              <!--              <header class="panel-heading">
-                              Inline form
-                            </header>-->
-              <div class="panel-body">
-                <form class="" role="form">
-                  <div class="form-group row col-lg-12">
-                    <label class="sr-only fa fa-user" for="exampleInputPassword2">Username</label>
-                    <input class="form-control fa fa-user" id="exampleInputPassword2" placeholder="Username"
-                           type="text">
-                  </div>
+  <!--main content start-->
+  <section id="">
+    <section class="wrapper">
+      <!-- Inline form-->
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+          <section class="panel">
+            <!--              <header class="panel-heading">
+                            Inline form
+                          </header>-->
+            <div class="panel-body">
+              <form class="" role="form">
+                <div class="form-group row col-lg-12">
+                  <input class="form-control" id="userName" placeholder="Username" type="text">
+                  <label class="control-label fa fa-user input-icon" for="userName"></label>
 
-                  <div class="form-group row col-lg-12">
-                    <!--                    <label class="sr-only" for="exampleInputPassword2">Password</label>-->
-                    <input class="form-control col-lg-12 fa fa-key" placeholder="Password" type="password">
-                  </div>
-                  <div class="form-group row col-lg-12">
-                    <a th:href="@{/}">Create Account?</a>
-                    <button class="btn btn-primary pull-right" type="submit">Sign in</button>
-                  </div>
-                  <div class="or-seperator"><i>or</i></div>
-                  <div class="row col-lg-12">
-                    <div class="row">
-                      <div class="col-lg-12 text-center">
-                        Easy Sign Up Here
-                      </div>
+                  <!--                    &lt;!&ndash;   <label class="sr-only fa fa-user" for="exampleInputPassword2">Username</label>&ndash;&gt;
+                                      <input class="form-control" id="exampleInputPassword2" placeholder="Username"
+                                             type="text">-->
+                </div>
+
+                <div class="form-group row col-lg-12">
+                  <!--                    <label class="sr-only" for="exampleInputPassword2">Password</label>-->
+                  <input class="form-control col-lg-12" placeholder="Password" type="password">
+                </div>
+                <div class="form-group row col-lg-12">
+                  <a th:href="@{/}">Create Account?</a>
+                  <button class="btn btn-primary pull-right" type="submit">Sign in</button>
+                </div>
+                <div class="or-seperator"><i>or</i></div>
+                <div class="row col-lg-12">
+                  <div class="row">
+                    <div class="col-lg-12 text-center">
+                      Easy Sign Up Here
                     </div>
-                    <a class="btn btn-danger btn-block" href="#">
-                      <i class="fa fa-google"></i>
-                      Sign Up with <b>Google</b></a>
                   </div>
-                </form>
+                  <a class="btn btn-danger btn-block" href="#">
+                    <i class="fa fa-google"></i>
+                    Sign Up with <b>Google</b></a>
+                </div>
+              </form>
 
-              </div>
-            </section>
+            </div>
+          </section>
 
-          </div>
-          <div class="col-lg-4"></div>
         </div>
+        <div class="col-lg-4"></div>
+      </div>
 
-        <!-- page end-->
-      </section>
+      <!-- page end-->
     </section>
-    <!--main content end-->
-
   </section>
-  <!-- container section start -->
+  <!--main content end-->
 
-  <!-- javascripts -->
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery-ui-1.10.4.min.js"></script>
-  <script src="js/jquery-1.8.3.min.js"></script>
-  <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
-  <!-- bootstrap -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- nice scroll -->
-  <script src="js/jquery.scrollTo.min.js"></script>
-  <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
-  <!-- charts scripts -->
-  <script src="assets/jquery-knob/js/jquery.knob.js"></script>
-  <script src="js/jquery.sparkline.js" type="text/javascript"></script>
-  <script src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
-  <script src="js/owl.carousel.js"></script>
-  <!-- jQuery full calendar -->
-  <<script src="js/fullcalendar.min.js"></script>
-    <!-- Full Google Calendar - Calendar -->
-    <script src="assets/fullcalendar/fullcalendar/fullcalendar.js"></script>
-    <!--script for this page only-->
-    <script src="js/calendar-custom.js"></script>
-    <script src="js/jquery.rateit.min.js"></script>
-    <!-- custom select -->
-    <script src="js/jquery.customSelect.min.js"></script>
-    <script src="assets/chart-master/Chart.js"></script>
+</section>
+<!-- container section start -->
 
-    <!--custome script for all page-->
-    <script src="js/scripts.js"></script>
-    <!-- custom script for this page-->
-    <script src="js/sparkline-chart.js"></script>
-    <script src="js/easy-pie-chart.js"></script>
-    <script src="js/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="js/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="js/xcharts.min.js"></script>
-    <script src="js/jquery.autosize.min.js"></script>
-    <script src="js/jquery.placeholder.min.js"></script>
-    <script src="js/gdp-data.js"></script>
-    <script src="js/morris.min.js"></script>
-    <script src="js/sparklines.js"></script>
-    <script src="js/charts.js"></script>
-    <script src="js/jquery.slimscroll.min.js"></script>
-    <script>
-      //knob
-      $(function() {
-        $(".knob").knob({
-          'draw': function() {
-            $(this.i).val(this.cv + '%')
-          }
-        })
-      });
+<!-- javascripts -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.10.4.min.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+<!-- bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- nice scroll -->
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+<!-- charts scripts -->
+<script src="assets/jquery-knob/js/jquery.knob.js"></script>
+<script src="js/jquery.sparkline.js" type="text/javascript"></script>
+<script src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+<script src="js/owl.carousel.js"></script>
+<!-- jQuery full calendar -->
+<
+<script src="js/fullcalendar.min.js"></script>
+<!-- Full Google Calendar - Calendar -->
+<script src="assets/fullcalendar/fullcalendar/fullcalendar.js"></script>
+<!--script for this page only-->
+<script src="js/calendar-custom.js"></script>
+<script src="js/jquery.rateit.min.js"></script>
+<!-- custom select -->
+<script src="js/jquery.customSelect.min.js"></script>
+<script src="assets/chart-master/Chart.js"></script>
 
-      //carousel
-      $(document).ready(function() {
-        $("#owl-slider").owlCarousel({
-          navigation: true,
-          slideSpeed: 300,
-          paginationSpeed: 400,
-          singleItem: true
+<!--custome script for all page-->
+<script src="js/scripts.js"></script>
+<!-- custom script for this page-->
+<script src="js/sparkline-chart.js"></script>
+<script src="js/easy-pie-chart.js"></script>
+<script src="js/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="js/jquery-jvectormap-world-mill-en.js"></script>
+<script src="js/xcharts.min.js"></script>
+<script src="js/jquery.autosize.min.js"></script>
+<script src="js/jquery.placeholder.min.js"></script>
+<script src="js/gdp-data.js"></script>
+<script src="js/morris.min.js"></script>
+<script src="js/sparklines.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/jquery.slimscroll.min.js"></script>
+<script>
+  //knob
+  $(function () {
+    $(".knob").knob({
+      'draw': function () {
+        $(this.i).val(this.cv + '%')
+      }
+    })
+  });
 
-        });
-      });
+  //carousel
+  $(document).ready(function () {
+    $("#owl-slider").owlCarousel({
+      navigation: true,
+      slideSpeed: 300,
+      paginationSpeed: 400,
+      singleItem: true
 
-      //custom select box
+    });
+  });
 
-      $(function() {
-        $('select.styled').customSelect();
-      });
+  //custom select box
 
-      /* ---------- Map ---------- */
-      $(function() {
-        $('#map').vectorMap({
-          map: 'world_mill_en',
-          series: {
-            regions: [{
-              values: gdpData,
-              scale: ['#000', '#000'],
-              normalizeFunction: 'polynomial'
-            }]
-          },
-          backgroundColor: '#eef3f7',
-          onLabelShow: function(e, el, code) {
-            el.html(el.html() + ' (GDP - ' + gdpData[code] + ')');
-          }
-        });
-      });
-    </script>
+  $(function () {
+    $('select.styled').customSelect();
+  });
+
+  /* ---------- Map ---------- */
+  $(function () {
+    $('#map').vectorMap({
+      map: 'world_mill_en',
+      series: {
+        regions: [{
+          values: gdpData,
+          scale: ['#000', '#000'],
+          normalizeFunction: 'polynomial'
+        }]
+      },
+      backgroundColor: '#eef3f7',
+      onLabelShow: function (e, el, code) {
+        el.html(el.html() + ' (GDP - ' + gdpData[code] + ')');
+      }
+    });
+  });
+</script>
 
 </body>
 
