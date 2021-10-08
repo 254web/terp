@@ -70,6 +70,12 @@ public class CmsApplication extends SpringBootServletInitializer {
         return "contact";
     }
 
+    @RequestMapping(value = "/admin")
+    public String indexEdited() {
+        return "indexsignup";
+    }
+
+
     public static void main(String[] args) {
         SpringApplication.run(CmsApplication.class, args);
     }
