@@ -1,6 +1,9 @@
 body {
 
 }
+.container{
+    margin-top: 50px;
+}
 .divider-text {
     position: relative;
     text-align: center;
