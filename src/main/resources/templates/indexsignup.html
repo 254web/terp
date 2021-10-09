@@ -54,13 +54,15 @@
 </head>
 <body>
 <!-- container section start -->
-<section id="container" class="">
+<section id="container" class="bg-info">
+  <div class="head_container">
+    <th:block th:insert="fragments/header::header"/>
+    <!--header end-->
+  </div>
 
-  <th:block th:insert="fragments/header::header"/>
-  <!--header end-->
 
-  <div class="container ">
-    <hr>
+  <div class="container bg-primary">
+    <hr class="bg-warning">
 
     <div class="card bg-light">
       <article class="card-body mx-auto" style="max-width: 400px;">
