@@ -40,6 +40,9 @@ body {
     border-color: #e1e1e1;
 }
 
+.options{
+    height: 150px;
+}
 .btn-submit{
     color: #fff;
 }
