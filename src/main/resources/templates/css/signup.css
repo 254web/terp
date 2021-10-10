@@ -1,6 +1,14 @@
 body {
 
 }
+
+.signup-content{
+    overflow-x: hidden;
+    margin-top: 50px;
+    background-color: #002a80;
+
+
+}
 .divider-text {
     position: relative;
     text-align: center;
