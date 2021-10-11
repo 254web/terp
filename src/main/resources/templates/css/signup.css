@@ -6,10 +6,19 @@ body {
     /*overflow-x: hidden;
     margin-top: 0px;*/
     background-color: #002a80;
-    margin-top: 50px;
-
+    /*margin-top: 50px;*/
 
 }
+
+.selection{
+    height: 34px;
+
+}
+.form-control, section {
+    font-size: small;
+
+}
+
 .divider-text {
     position: relative;
     text-align: center;
