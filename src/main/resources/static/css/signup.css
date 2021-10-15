@@ -3,10 +3,8 @@ body {
 }
 
 .signup-content{
-    /*overflow-x: hidden;
-    margin-top: 0px;*/
     background-color: #002a80;
-    /*margin-top: 50px;*/
+
 
 }
 
@@ -47,12 +45,15 @@ body {
     color: #fff;
 }
 
+.form-group{
+    background-color: red;
+    /*width: 100px;*/
+}
+
 .form-control, .form-control:focus, .input-group {
     border-color: #e1e1e1;
 }
-.options{
 
-}
 .btn-submit{
-    color: #fff;
+    /*color: #fff;*/
 }
