@@ -75,6 +75,11 @@ public class CmsApplication extends SpringBootServletInitializer {
         return "indexsignup";
     }
 
+    @RequestMapping(value = "/signup")
+    public String signUp() {
+        return "signup";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(CmsApplication.class, args);
     }
