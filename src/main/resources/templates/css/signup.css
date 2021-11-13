@@ -45,9 +45,17 @@ body {
     /*background-color: #42AEEC;*/
     color: #fff;
 }
+.form-group{
+
+}
+.input-group{}
+input[type="text"],input[type="email"], input[type="password"] {
+   /* padding: 15px;*/
+}
 
 .form-control, .form-control:focus, .input-group {
     border-color: #e1e1e1;
+
 }
 .options{
 
